@@ -1,0 +1,21 @@
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+
+alias ll='ls -hlFA $@'
+
+alias shutdown='/sbin/shutdown'
+alias reboot='/sbin/reboot'
+
+alias python='python3'
+alias pip='pip3'
+
+alias ?='~/bin/duck $@'
+alias brave='nohup brave-browser >/dev/null 2>&1 &'	# run in background, redirect output to devnull
+
+alias vi='nvim'
+alias vim='nvim'
+
+alias cheat='vi ~/cheatsheets'
+
+alias venv='source .python_venvs/venv/bin/activate'
